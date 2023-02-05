@@ -1,0 +1,330 @@
+<html>
+    <head>
+        <title>homepage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div.sticky {
+                position: sticky;
+            top: 0;
+            background-color:#006080;
+            font-size: 20px;
+            }
+            .img_stickyheader{
+                    height: 50pt;
+                    width: 180pt;
+                    float: left;
+                    padding: 0;
+            }
+            .topleftsticky{
+                margin-left:900pt;
+            }
+            .a0{
+                text-align: center;
+                padding-left: 450pt;
+                padding-right: 411pt;
+                font-size: large;
+                color: azure;
+                background-color: rgb(255, 0, 0);
+                width:100%;
+            }
+                .theoptions{
+                    padding-left: 800px;
+                    margin-top: 10pt;
+                    font-weight: 400;
+                    display: inline-flex;
+                   
+                }
+                a:link { text-decoration:none;
+                color: rgb(0, 0, 0);}
+                a:hover { text-decoration-color: red;
+                color:red}
+                a{padding-left: 10px;
+                color:black;
+            }
+                .openBtn {
+                background: #f1f1f1;
+                border: none;
+                padding: 10px 15px;
+                cursor: pointer;
+                }
+            .openBtn:hover {
+            background: #bbb;}
+            .overlay {
+                height: 100%;
+                width: 100%;
+                display: none;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0,0,0);
+                background-color: rgba(0,0,0, 0.9);
+            }
+           .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+            cursor: pointer;
+            color: white;
+            }
+            p{
+                font-size: 150px;
+            }
+           .closebtn:hover {
+                color: #ccc;
+                }
+
+                .overlay input[type=text] {
+                padding: 15px;
+                font-size: 17px;
+                border: none;
+                float: left;
+                width: 40%;
+                background: white;
+                }
+
+                .overlay input[type=text]:hover {
+                background: #f1f1f1;
+                }
+
+                .overlay button {
+                float: left;
+                width: 20%;
+                padding: 15px;
+                background: #ddd;
+                font-size: 17px;
+                border: none;
+                cursor: pointer;
+                }
+
+                .overlay button:hover {
+                background: #bbb;
+                }
+        .sticky_header{
+            position: sticky;
+            margin-top:-8px;;
+            padding: auto;
+            margin-left: -8px;
+            margin-right: -8px;
+           
+        }
+         /**/
+         .dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #00548B;
+}
+.dropdown-content a:hover {background-color: rgb(207, 21, 21);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e91115;}
+.link{ font-family: 'Montserrat', sans-serif;
+font: size 14px;;}
+/**/
+.dropdown-contentc {
+  display: none;
+  position: absolute;
+  color: white;
+  background-color: #00548B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentc a {
+  color:white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+}
+
+.dropdown-contentc a:hover {background-color: #d42525;}
+
+.dropdownc:hover .dropdown-contentc{
+  display:flex;
+}
+.switch {
+                              position: relative;
+                              display: inline-block;
+                              width: 60px;
+                              height: 34px;
+                            }
+                           
+                            .dark-mode {
+                              background-color: black;
+                              color: white;
+                            }
+                            .switch input { 
+                              opacity: 0;
+                              width: 0;
+                              height: 0;
+                            }
+                            
+                            .slider {
+                              position: absolute;
+                              cursor: pointer;
+                              top: 0;
+                              left: 0;
+                              right: 0;
+                              bottom: 0;
+                              background-color: gray;
+                              -webkit-transition: .4s;
+                              transition: .4s;
+                            }
+                            
+                            .slider:before {
+                              position: absolute;
+                              content: "";
+                              height: 26px;
+                              width: 26px;
+                              left: 4px;
+                              bottom: 4px;
+                              background-color: white;
+                              -webkit-transition: .4s;
+                              transition: .4s;
+                            }
+                            
+                            input:checked + .slider {
+                              background-color: gold;
+                            }
+                            
+                            input:focus + .slider {
+                              box-shadow: 0 0 1px #2196F3;
+                            }
+                            
+                            input:checked + .slider:before {
+                              -webkit-transform: translateX(26px);
+                              -ms-transform: translateX(26px);
+                              transform: translateX(26px);
+                            }
+                            
+                            /* Rounded sliders */
+                            .slider.round {
+                              border-radius: 34px;
+                            }
+                            
+                            .slider.round:before {
+                              border-radius: 50%;
+                            }  
+      .lowsticky{
+        position:fixed;
+        bottom: 0%;
+        padding-right: 1314;
+        margin-left: -8;
+              background-color: #055e9a;
+      } 
+      .lsa{
+        color:#ddd;
+        font-size: 14;
+      }  
+      .paralast{
+        font-size: 24;
+
+      }
+                             </style>
+     
+       <script src="script.js"></script>
+    </head>
+<body>
+    <div class="sticky_header">
+        <a class="a0" href="https://covid-19.ebscomedical.com/" target="_blank">COVID-19 Resources and Vaccination Information</a> 
+        <div class="sticky">
+          <a href="homepage.html"><img src="logo.png" class="img_stickyheader"></a>
+            <div class="topleftsticky">
+                <span class="a1">call us on:01-525011,01-525012 </span>
+                <button class="openBtn" onclick="openSearch()">🔍</button>
+            </div>
+            <div id="myOverlay" class="overlay">
+                <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                <div class="overlay-content">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button class="search" type="submit">🔍</button>
+                </form>
+                </div>
+            </div>
+            <div class="theoptions">
+                <div class="dropdown">
+                <a class="link" href="about.html">About</a>
+                <div class="dropdown-content">
+                    <a class="link" href="#">Programs</a>
+                    <a class="link" href="#">Our services</a>
+                  </div></div>
+                    <div class="dropdown">
+                <a class="link" href="docdetail.html">Doctor details</a>
+                <div class="dropdown-content">
+                    <a class="link" href="#">Our Doctors</a>
+                    <a class="link" href="Contactus.html">Consult Professionals</a>
+                </div>
+                </div>
+                <div class="dropdown">
+                <a class="link" href="pandv.html">Patient and visitor</a>
+                <div class="dropdown-content">
+                    <a class="link" href="#">Patient Portal</a>
+                    <a class="link" href="#">Pre-register appointments</a>
+
+                    <a class="link" href="#">Consult Professionals</a>
+
+                    <a class="link" href="https://www.helpguide.org/articles/anxiety/dealing-with-uncertainty.htm">what you need to know about Covid-19</a>
+
+                </div>
+                </div>
+        <div class="dropdown">
+            <a class="link" href="Contactus.html">Contact us</a>
+            <div class="dropdown-content">
+                <a class="link" href="Contactus.html">Stay Connected</a>
+                </div></div>
+    </div>
+    <div>
+        
+    </div>
+</div></div>
+<div class="paralast">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum atque consequatur quam illo voluptas blanditiis amet iusto sapiente aut, at doloremque, repellat debitis minus molestias eius eos! Debitis, perferendis tempora. lor
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit asperiores accusantium dolorem pariatur, magnam recusandae quo! Temporibus minima sunt debitis quaerat, qui odio itaque possimus nobis dolorum architecto quis beatae. lor
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem necessitatibus debitis voluptas laudantium quae unde eum tempore aspernatur quaerat nesciunt quibusdam, praesentium eius pariatur temporibus ipsum repellat qui, ad soluta. lor
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quasi qui labore quidem, sed quis at cupiditate atque saepe delectus quos, assumenda doloribus consequatur, ipsum ut harum corporis iure nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia at possimus tenetur non ea consequatur dicta sunt molestias delectus animi ipsam odio et, voluptas, rerum rem dignissimos minima aut. lor
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem iure voluptatem culpa! Ipsa molestiae, provident molestias ea dolore iste dicta vitae recusandae dolorem officiis optio aspernatur corrupti, saepe, facere modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit error mollitia ad iure. Perspiciatis placeat cupiditate repudiandae ab? Officiis maiores voluptatibus delectus rerum perspiciatis sit pariatur dignissimos recusandae distinctio laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro optio cumque labore expedita eos? Debitis corrupti illo deleniti eligendi, impedit vel accusantium amet voluptatibus. Qui harum ipsam veritatis facere natus. lor
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolores reprehenderit, velit recusandae fugiat delectus fugit obcaecati assumenda aperiam, saepe debitis, veniam vitae quas esse? Sunt dolores sed officia debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem consequuntur quae aut! Quos laudantium aliquid nemo voluptatibus itaque soluta impedit facere eius, quis voluptatum ratione commodi, eaque quo fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit id quam fugiat saepe odio adipisci temporibus beatae sit animi error, cupiditate eligendi aliquam, amet porro ipsam officia placeat earum blanditiis. lor
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente rerum placeat fugit quasi aliquam natus vel odit amet tenetur asperiores unde repudiandae tempore velit id consequatur suscipit veritatis, expedita quos. lor
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat nam, fugiat id blanditiis esse omnis magni quas, inventore numquam vel hic necessitatibus fuga impedit ducimus explicabo optio iure nobis. lor
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa veritatis facilis, doloribus velit quam ratione sunt perspiciatis impedit voluptate temporibus, quas praesentium eaque at quasi ut quibusdam, reiciendis quis illum. lor
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nobis rem reprehenderit quo voluptate corrupti molestias delectus deleniti? Temporibus error in perspiciatis reprehenderit fuga vitae dolorum explicabo hic impedit libero. lor
+           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quasi laboriosam est mollitia ex animi aliquam itaque amet placeat fuga eum, quia adipisci deleniti nesciunt vero ea architecto. Laborum, neque. lor
+           
+</div>
+<div class="lowsticky">
+<label class="lsa">☼</label>
+<label class="switch">
+  <input onclick="myFunction()" type="checkbox">
+  <span class="slider round"></span>
+</label>
+<label class="lsa">☾</label> <br>
+<a class="lsa" href="Contactus.html">Contact</a>
+<a class="lsa" href="about.html">About us</a>
+<a class="lsa" href="about.html">Need help?</a>
+
+<br>
+<p class="lsa">copyright © anon and friends</p>
+</div>
+</html>

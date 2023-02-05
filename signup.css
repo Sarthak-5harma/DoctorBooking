@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(218, 216, 216);
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1{
+    color: rgba(21, 0, 255, 0.595);
+    font-size: 60px;
+}
+.options{
+    display: flex;
+    gap: 100px;
+}
+.img{
+    height:300px;
+    width: 350px;
+}
+a{
+    text-decoration: none;
+}
+.nam{
+    color: rgba(21, 0, 255, 0.595);
+    font-size: 30px;
+    padding-left: 130px;
+}
+a:hover{
+    box-shadow: 5px 10px rgb(193, 203, 248);
+}

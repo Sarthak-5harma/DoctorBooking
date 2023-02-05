@@ -1,0 +1,130 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(45, 112, 246, 0.595);
+    color: white;
+  }
+  .nav{
+      display: flex; 
+      margin-top: 0%;
+  }
+  .nav1{
+      display: flex;
+      padding:0px;
+   
+  }
+  .nav2{
+      display: flex;
+      gap:50px;
+      margin: 25px 0px 0px 760px;
+      font-size: 20px;
+     
+  }
+  .login{
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+  }
+  .flex{
+      margin-top: 100px;
+      padding:195px 70px;
+      background-color: rgba(45, 112, 246, 0.595);
+  }
+  .topic{
+      display: flex;
+      justify-content: space-between;
+  }
+  .view_all{
+      margin-top: 20px;
+      align-self:right;
+  }
+  h2{
+      font-size: 32px;
+  }
+  .content{
+      margin-right: 400px;
+  }
+  .hospitals{
+      
+  }
+  .heading{
+      color: rgba(21, 0, 255, 0.595);
+  
+  }
+  .topic{
+  
+  }
+  .body{
+  
+  }
+  .details{
+      display: flex;
+      gap:3%;
+  }
+  
+  .con{
+      border-style: solid;
+      border-radius: 20px;
+      border-width: 1.57px;
+      border-color: rgb(208, 204, 204);
+      width:48.5%;
+      padding-top:20px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+  }
+  .parts{
+      display: flex;
+      padding-top: 20px;
+      gap:10px;
+      margin: 0px;
+      padding: 0px;
+  }
+  .hdp{
+      height:90px;
+      width: 90px;
+      border-radius: 50%;
+      margin-left: 10px;
+    
+  }
+  .book{
+      margin-top:10px;
+      margin-left: 10px;
+      padding: 9px 15px;
+      border-radius: 10px;
+      border-width: 0.5px;
+      border-color: rgba(21, 0, 255, 0.595);
+      color: rgba(21, 0, 255, 0.595);
+  }
+  .doctors{
+      margin-top: 50px;
+  }
+  .con p{
+      padding: 0px;
+      margin: 7px;
+  }
+  .hname{
+      font-size: 19px;
+      color: rgba(21, 0, 255, 0.595);
+  }
+  .hbody{
+      color: rgb(102, 95, 95);
+  }
+  .book:hover{
+      background-color: rgba(21, 0, 255, 0.595);
+      color: white;
+      transition: 0.4s;
+  }
+  .view_all{
+      margin-top:35px ;
+      padding:9px 20px;
+      border-radius: 10px;
+      border-width: 0.5px;
+      border-color: rgba(21, 0, 255, 0.595);
+      color: rgba(21, 0, 255, 0.595);
+  }
+  .view_all:hover{
+      background-color: rgba(21, 0, 255, 0.595);
+      color: white;
+      transition: 0.4s;
+  }
+  

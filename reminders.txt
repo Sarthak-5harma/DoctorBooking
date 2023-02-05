@@ -1,0 +1,10 @@
+//reminder
+1.create about page
+2.contact us
+3.doctors details
+4.patient and visitor page
+    { appointment (4)option //a sign in popup
+        then php
+    }
+5. treatment and care
+    {all available services along with consultation}

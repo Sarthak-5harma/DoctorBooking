@@ -1,0 +1,57 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: rgba(45, 112, 246, 0.595);
+  color: white;
+}
+.nav{
+    display: flex; 
+    margin-top: 0%;
+}
+.nav1{
+    display: flex;
+    padding:0px;
+ 
+}
+.nav2{
+    display: flex;
+    gap:50px;
+    margin: 25px 0px 0px 760px;
+    font-size: 20px;
+   
+}
+.login{
+    padding: 5px 20px 5px 20px;
+    margin-top: 5px;
+}
+.flex{
+    margin-top: 100px;
+    padding:195px 70px;
+    background-color: rgba(45, 112, 246, 0.595);
+}
+.topic{
+    display: flex;
+    justify-content: space-between;
+}
+.doc_heading{
+    margin-top:100px;
+    color:  rgba(21, 0, 255, 0.595);
+}
+.timeS{
+    margin-right: 30%;
+}
+.tyam{
+    display: flex;
+    gap:3%;
+}
+.con{
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1.57px;
+    border-color: rgb(208, 204, 204);
+    width:48.5%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}

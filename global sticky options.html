@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .open-buttongs{
+  background-color: goldenrod;
+  color:white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;}
+  .form-popupgs{
+  display: none;
+  color: red;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid blue;
+  z-index: 9;
+}
+.form-containergs{
+  max-width:750px;
+  max-height: 1200px;
+  padding: 20px;
+  background-color: white;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;}
+  a:link{text-decoration: none;
+  }
+  .v1gs{
+      height: 80pt;
+      width: 30pt;
+      float: left;
+      padding-right: 140px;
+  }
+  .spangs{
+      height: 50px;
+      font-size: 32px;
+      width:50px;
+  }
+  .searchbargs{
+    width: 70%;
+    float:left;
+    height: 28pt;
+    margin-top: 50px;
+  }
+  .cl1gs{clear: left;
+    margin-left: 550px;
+    margin-bottom: 10px;
+      }
+      .btn_cancel{
+        height:  40px;
+        width: 200px;
+        background-color: red;
+        color: white;
+        border: #f1f1f1;
+        font-size: larger;
+      }
+  .searchgs{
+    margin-top: 48px;
+    font-size: 22pt;
+  }
+  .v2gs{     height: 80pt;
+      width: 30pt;
+      float: left;
+      padding-right: 140px;}
+      
+</style>
+</head>
+<body>
+<button class="open-buttongs" onclick="openFormgs()"><strong>Open Form</strong></button>
+
+<div class="form-popupgs" id="myForm">
+  <form action="/action_page.php" class="form-containergs">
+      <div class="v1gs">
+        <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">🩺Doctors</span></a>
+      </div>
+        <div class="v1gs">
+          <a href="https://www.google.com/maps/place/Civil+Service+Hospital+of+Nepal/@27.6987904,85.327872,14z/data=!4m5!3m4!1s0x39eb1994769ac19f:0xd15dddabb04dbed!8m2!3d27.6863031!4d85.3388038"><span class="spangs">🗺️Location</span></a>
+        </div>
+        <div class="v1gs">
+          <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs"><img src="teleh.jpg" height="35px">Telehealth</span></a>
+        </div>
+        <div class="v1gs">
+          <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">📅Events</span></a>
+        </div>
+        <div class="v2gs">
+          <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">🍎Patients Portal</span></a>
+        </div>
+        <div class="v2gs">
+            <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">🧾Billing &Insurance</span></a>
+          </div>
+        <div class="v2gs">
+            <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">🥼Healthcare Professionals</span></a>
+        </div>
+        <div class="v2gs">
+            <a href="https://www.rwjbh.org/jersey-city-medical-center/about/"><span class="spangs">🎁Donate</span></a>
+        </div>
+        <div><blockquote ><input class="searchbargs" type="text" placeholder="Search.." name="search"></blockquote>
+    <blockquote><button class="searchgs" type="submit">🔍</button></blockquote></div>
+    <div class="cl1gs"><button type="button" class="btn_cancel" onclick="closeFormgs()"><strong>Close</strong></button></div>
+  </form>
+
+</div>
+
+<script>
+function openFormgs() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeFormgs() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
